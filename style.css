@@ -29,6 +29,9 @@
     background-color: white;
     border-radius: 5px;
 }
+.navbar-button button:hover{
+    cursor: pointer;
+}
 /* banner section start */
 .banner{
     max-width: 1301px;
@@ -203,6 +206,7 @@ button{
 /* target section start */
 .target{
     max-width: 1301px;
+    padding: 50px 0;
 }
 .target-container{
     width: 80%;
@@ -373,15 +377,24 @@ button{
 }
 .footer-container{
     width: 80%;
-    margin: 50px auto;
-    
+    margin: 0 auto;
 }
 .footer-area{
     display: flex;
     justify-content: space-between;
+    align-self: center;
+}
+.footer-text, .social-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
 }
 .footer-text h3{
     color: rgb(13, 19, 33);
     font-size: 23px;
     font-weight: 600;
+}
+.social-img img{
+    padding: 0 10px;
 }
