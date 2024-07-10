@@ -318,4 +318,70 @@ button{
     font-size: 15px;
     font-weight: 700;
 }
-
+/* support section start */
+.support{
+    max-width: 1301px;
+}
+.support-container{
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(13, 19, 33, 0.4), rgb(13, 19, 33, 0.4)), url(./assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.support-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 30px 0;
+}
+.support-area h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+}
+.support-area p{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 13px 0;
+}
+.support-area input[type="text"]{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px 5px;
+    width: 350px;
+}
+.support-button{
+    color: rgb(13, 19, 33);
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+/* footer section start */
+.footer{
+    max-width: 1301px;
+    background-color: #C9CACA;
+    height: 150px;
+}
+.footer-container{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text h3{
+    color: rgb(13, 19, 33);
+    font-size: 23px;
+    font-weight: 600;
+}
