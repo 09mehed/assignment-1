@@ -8,6 +8,7 @@
 /* nav section */
 .nav{
     max-width: 1301px;
+    
 }
 .navbar{
     width: 90%;
@@ -15,10 +16,17 @@
     display: flex;
     justify-content: space-between;
 }
+.navbar-area{
+    text-align: center;
+}
 .navbar-area h3{
     color: rgb(13, 19, 33);
     font-size: 25px;
     font-weight: 700;
+    padding: 10px 0;
+}
+.navbar-area p{
+    padding: 10px 0;
 }
 .navbar-button button{
     color: rgb(13, 19, 33);
@@ -42,7 +50,6 @@
     background-size: cover;
 }
 .banner-section{
-    width: 80%;
     margin: 0 auto;
 }
 .banner-text{
@@ -110,7 +117,6 @@ button{
 }
 .why-us-area{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 15px;
@@ -397,4 +403,98 @@ button{
 }
 .social-img img{
     padding: 0 10px;
+}
+/* mobile responsive */
+.hide{
+    display: none;
+}
+@media screen  and (max-width: 426px){
+    .navbar-area img{
+        width: 50%;
+    }
+    .navbar-area h3{
+        font-size: 1.3rem;
+    }
+    .navbar-area p{
+        font-size: 0.7rem;
+    }
+    .why-us-area{
+        margin: 0;
+    }
+    .why-us-text h2{
+        font-size: 1.3rem;
+    }
+    .why-us-text p{
+        font-size: 0.7rem;
+    }
+    .why-us-coding{
+        margin: 30px 0;
+    }
+    .why-us-text1 h3, .why-us-text2 h3{
+        font-size: 1rem;
+        text-align: start;
+        margin: 0;
+    }
+    .next-target-text h3{
+        font-size: 1.3rem;
+    }
+    .next-target-text p{
+        font-size: 0.7rem;
+    }
+    .next-target-text1 h4{
+        font-size: 1.3rem;
+    }
+    .next-target-img img{
+        width: 50px;
+    }
+    .next-target-text1 a{
+        font-size: 0.7rem;
+    }
+    .navbar, .why-us-text, .why-us-area, .footer-area, .support-area{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .video{
+        padding-bottom: 0;
+    }
+    .video iframe{
+        width: 100%;
+    }
+    .support-area h2{
+        font-size: 1.3rem;
+    }
+    .support-area p{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .support-area input[type="text"]{
+        width: 100%;
+    }
+    .support-button{
+        text-align: center;
+    }
+    .footer-area{
+        padding: 10px 0;
+    }
+    .footer-text h3{
+        font-size: 1rem;
+    }
+    .target-box{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 426px) and(max-width: 769px){
+    .video iframe{
+        width: 100%;
+    }
+    .navbar-area h3{
+        font-size: 1.5rem;
+    }
+    .navbar-area p{
+        font-size: 1rem;
+    }
 }
